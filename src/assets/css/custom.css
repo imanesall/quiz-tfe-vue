@@ -1,0 +1,63 @@
+.option-default {
+    @apply cursor-pointer;
+  }
+  
+  .option-default div:nth-child(1) {
+    @apply hidden;
+  }
+  
+  .option-default div:nth-child(2) div:nth-child(1) {
+    @apply inline text-white bg-custom-blue;
+  }
+  
+  .option-default div:nth-child(2) {
+    @apply bg-custom-dark-blue text-white;
+  }
+  
+  /* styles for correct option */
+  
+  .option-correct {
+    @apply cursor-pointer;
+  }
+  
+  .option-correct div:nth-child(1) {
+    @apply inline;
+  }
+  
+  .option-correct div:nth-child(2) div:nth-child(1) {
+    @apply inline text-white bg-gray-800;
+  }
+  
+  .option-correct div:nth-child(2) {
+    @apply bg-custom-green text-white;
+  }
+  
+  .option-wrong {
+    @apply cursor-pointer;
+  }
+  
+  .option-wrong div:nth-child(1) {
+    @apply hidden;
+  }
+  
+  .option-wrong div:nth-child(2) div:nth-child(1) {
+    @apply inline text-white bg-gray-800;
+  }
+  
+  .option-wrong div:nth-child(2) {
+    @apply bg-custom-red text-white;
+  }
+  .bg-custom-dark-blue {
+    background-color: #104355;
+}
+
+.bg-custom-blue {
+  background-color: #0A3443;
+}
+.bg-custom-red {
+  background-color: #FF7466;
+}
+
+.bg-custom-green {
+  background-color: #66FF71;
+}
